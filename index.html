@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SHIMMY RUKUNDO </title>
+    <link rel="icon" type="image/x-icon" href="static/icons/intilic.png">
+    <link rel="stylesheet" type="text/css" href="static/css/base/topnav.css ">
+    <link rel="stylesheet" type="text/css" href="static/css/base/base.css ">
+    <link rel="stylesheet" type="text/css" href="static/css/home/home.css " />
+    <link rel="stylesheet" type="text/css" href="static/css/layout/root.css ">
+    <link rel="stylesheet" type="text/css" href="static/css/layout/layout.css ">
+    <link rel="stylesheet" type="text/css" href="static/css/layout/colors.css ">
+    <script src="https://kit.fontawesome.com/b0dbe5932c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Navigation Bn ar-->
+
+    <div class="topnav-main" style="z-index: 1">
+        <div class="topnav-header">
+            <a class="continic blue" href="/">SHIMMY RUKUNDO</a>
+        
+            <div class="topnav-item-right ">
+                <a class="item-link " href="https://www.linkedin.com/in/shimmy-rukundo-b68734203/"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a class="item-link " href="https://www.instagram.com/shimmy_nmr/"><i class="fa-brands fa-instagram"></i></a>
+                <a class="item-link " href="https://www.facebook.com/rukundo.nmr"><i class="fa-brands fa-facebook"></i></a>
+                <a class="item-link " href="https://twitter.com/ShimmyRukundo"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="topnav-slider" style="z-index: 1">
+        <ul>
+            <a class="item-link-slider " href="innovation/">Innovation</a>
+            <a class="item-link-slider " href="opportunities/">Resume</a>
+            <a class="item-link-slider " href="opportunities/">Opportunities</a>
+            <a class="item-link-slider " href="supply-chain-logistics/">Supply Chain &amp; Logistics</a>
+            <a class="item-link-slider " href="global-market/">Global Market</a>
+            <a class="item-link-slider " href="trade-events/">Trade Events</a>
+            <a class="item-link-slider " href="sustainability/">Sustainability</a>
+            <a class="item-link-slider " href="better-world/">Better World</a>
+            <a class="item-link-slider " href="mission-vision/">Mission &amp; Vision</a>
+            <a class="item-link-slider " href="our-values/">Our Values</a>
+        </ul>
+    </div>
+
+    <script>
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("topnav-slider");
+        var sticky = navbar.offsetTop;
+
+        function myFunction()
+        {
+            if (window.pageYOffset >= sticky)
+            {
+                navbar.classList.add("sticky")
+            } else
+            {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    <!--end of Navigation bar-->
+
+    <main class="base-container">
+        <section class="home-container">
+            <div class="map-cont">
+                <img src="static/images/map.png" alt="map background">
+            </div>
+            <div class="home-content">
+                <div class="div-img-sup">
+                    <img class="img-sup" src="static/images/supply.jpeg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

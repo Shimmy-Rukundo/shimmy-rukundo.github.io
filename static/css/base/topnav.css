@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.topnav-main {
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 0.5px solid rgb(188, 199, 209);
+  height: 40px;
+  position: relative;
+}
+/* Style the links inside the navigation bar */
+/* Add a color to the active/current link */
+.topnav-header{
+  display: grid;
+  grid-template-columns: 2fr 3fr ;
+  grid-gap: 10px;
+  margin: auto 1.5%;
+}
+
+.continic {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 6.5px 0px;
+  color: rgba(153, 90, 8, 0.8); 
+    color: rgb(0, 85, 135);
+
+}
+
+
+
+.item-link{ 
+  font-size: 1.2rem;
+  margin: auto 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: white;
+  overflow: hidden;
+  background-color: rgba(153, 90, 8, 0.8);
+  padding: 0 5px;
+  border-radius: 25%;
+}
+
+.topnav-item-right{
+  margin: 6.5px 0px;
+  text-align: right;
+}
+
+
+#topnav-slider {
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 0.5px solid rgb(188, 199, 209);
+  height: 30px;
+   -webkit-backdrop-filter: blur(0.5px);
+  backdrop-filter: blur(0.5px);
+  width: 100%;
+}
+
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  width: 100%;
+}
+
+#topnav-slider ul {
+  text-align: center;
+  margin: 4px auto;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.item-link-slider{ 
+  font-size: 0.8rem;
+  margin: auto 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: rgb(153, 90, 8);
+  display: inline-block;
+  background-color:rgba(245, 245, 245);
+  padding: 0 6px;
+  border-radius: 8px;
+}
+.item-link-slider:hover{ 
+  color: rgb(0, 85, 135);
+}

@@ -1,0 +1,42 @@
+/* width */
+html::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: #ecf0f3;
+  position: fixed;
+}
+
+/* Track */
+html::-webkit-scrollbar-track {
+  border-radius: 20px;
+  margin-block: 10px;
+}
+
+/* Handle */
+html::-webkit-scrollbar-thumb {
+  background: rgb(153, 90, 8);
+  border-left: 1.5px solid #ecf0f3;
+  border-right: 2px solid #ecf0f3;
+  border-top: 1.5px solid #ecf0f3;
+  border-bottom: 2px solid #ecf0f3;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+html::-webkit-scrollbar-thumb:hover {
+  background: rgb(90, 52, 3);
+}
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color:  rgb(0, 121, 64);
+  transition: background-color 10000s ease-in-out 0s;
+}
