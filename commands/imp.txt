@@ -1,0 +1,10 @@
+//Convert the HTML file to Markdown using a tool like Pandoc or CommonMark
+pandoc -s -f html -t markdown -o index.md index.html
+
+//Convert the Markdown file back to HTML using a tool like Pandoc or CommonMark.
+pandoc -s -f markdown -t html -o index.html index.md
+
+//Overwrite the original HTML file with the new HTML file.
+Overwrite the original HTML file with the new HTML file.
+
+
