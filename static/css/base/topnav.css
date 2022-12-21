@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .topnav-main {
   background-color: white;
@@ -9,9 +9,9 @@
 }
 /* Style the links inside the navigation bar */
 /* Add a color to the active/current link */
-.topnav-header{
+.topnav-header {
   display: grid;
-  grid-template-columns: 2fr 3fr ;
+  grid-template-columns: 2fr 3fr;
   grid-gap: 10px;
   margin: auto 1.5%;
 }
@@ -21,18 +21,15 @@
   font-weight: 400;
   text-align: left;
   margin: 6.5px 0px;
-  color: rgba(153, 90, 8, 0.8); 
-    color: rgb(0, 85, 135);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+  color: rgb(90, 52, 3);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-
-
-.item-link{ 
+.item-link {
   font-size: 1.2rem;
   margin: auto 8px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: white;
   overflow: hidden;
@@ -41,20 +38,33 @@
   border-radius: 25%;
 }
 
-.topnav-item-right{
+.topnav-item-right {
   margin: 6.5px 0px;
   text-align: right;
 }
 
+.il-1 {
+  background-color: rgb(0, 119, 181);
+}
+.il-2 {
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+.il-3{
+  background-color: rgb(66, 103, 178);
+}
 
 #topnav-slider {
   background-color: white;
   overflow: hidden;
   border-bottom: 0.5px solid rgb(188, 199, 209);
-  height: 30px;
-   -webkit-backdrop-filter: blur(0.5px);
+  -webkit-backdrop-filter: blur(0.5px);
   backdrop-filter: blur(0.5px);
   width: 100%;
+  padding: 0.05% 0;
 }
 
 .sticky {
@@ -71,17 +81,17 @@
   white-space: nowrap;
 }
 
-.item-link-slider{ 
+.item-link-slider {
   font-size: 0.8rem;
-  margin: auto 20px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
+  margin: auto 1.5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
   color: rgb(153, 90, 8);
   display: inline-block;
-  background-color:rgba(245, 245, 245);
+  background-color: rgba(245, 245, 245);
   padding: 0 6px;
   border-radius: 8px;
 }
-.item-link-slider:hover{ 
+.item-link-slider:hover {
   color: rgb(0, 85, 135);
 }
