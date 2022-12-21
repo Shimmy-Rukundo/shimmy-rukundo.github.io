@@ -9,3 +9,6 @@ mv index.html path/to/original/index.html
 
 shimmy = "https://shimmy-rukundo.github.io/bio/"
 
+
+/usr/local/lib/node_modules/lighthouse https://shimmy-rukundo.github.io/home/ --output html --output-path index.html  
+

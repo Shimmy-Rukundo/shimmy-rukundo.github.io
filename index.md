@@ -6,7 +6,8 @@ viewport: width=device-width, initial-scale=1.0
 
 ::: {.topnav-main style="z-index: 1"}
 ::: topnav-header
-[SHIMMY RfUKUNDO](/){.continic .blue}
+[SHIMMY RUKUNDO](https://shimmy-rukundo.github.io/home/){.continic
+.blue}
 
 ::: topnav-item-right
 [](https://www.linkedin.com/in/shimmy-rukundo-b68734203/){.item-link
@@ -30,7 +31,7 @@ viewport: width=device-width, initial-scale=1.0
 :::
 
 ::: {#home .hm-image-sp}
-![Fashion log](static/images/kepler.jpg){.un-image}
+![Fashion Blog](static/images/kepler.jpg){.un-image}
 
 ::: hm-padding
 # SHIMMY {#shimmy .w3-text-white}
