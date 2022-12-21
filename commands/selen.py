@@ -17,20 +17,13 @@ links = driver.find_elements(By.TAG_NAME, 'a')
 for link in links: 
     try:
         link.click()
+        print(link.tag_name)
         # Wait for the page to load
-        driver.implicitly_wait(10)
+        driver.implicitly_wait(40)
         # Print the title of the page
-        print(driver.title, driver.current_url, driver.execute_script(
-            "return document.readyState"))
-        if driver.current_url.startswith(shimmy):
-            # The link does not return a 404 error
-            print("The link does not return a 404 error.")
+        print(driver.title, )
     except:
-        print(driver.current_url ," == Error: Link did not lead to a valid page")
-        
-        
+        print(driver.title," == Error: Link did not lead to a valid page")   
     # Navigate back to the blog page
-    driver.get(shimmy)
-
 # Quit the webdriver
 driver.quit()
