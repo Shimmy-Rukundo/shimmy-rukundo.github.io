@@ -1,10 +1,7 @@
-# .gitlab-ci.yml
-
-lighthouse:
-  image: node:10
-  script:
-    - npm install -g lighthouse
-    - lighthouse https://example.com --output=json --output-path=lighthouse-report.json
-  artifacts:
-    paths:
-      - lighthouse-report.json
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
