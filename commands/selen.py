@@ -17,7 +17,6 @@ links = driver.find_elements(By.TAG_NAME, 'a')
 for link in links: 
     try:
         link.click()
-        print(link.tag_name)
         # Wait for the page to load
         driver.implicitly_wait(40)
         # Print the title of the page
@@ -25,5 +24,6 @@ for link in links:
     except:
         print(driver.title," == Error: Link did not lead to a valid page")   
     # Navigate back to the blog page
+    driver.get(shimmy)
 # Quit the webdriver
 driver.quit()
