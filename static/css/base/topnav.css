@@ -60,11 +60,12 @@
 #topnav-slider {
   background-color: white;
   overflow: hidden;
-  border-bottom: 0.5px solid rgb(188, 199, 209);
+  border-bottom: 0.5px solid white;
   -webkit-backdrop-filter: blur(0.5px);
   backdrop-filter: blur(0.5px);
   width: 100%;
-  padding: 0.05% 0;
+    border-bottom: 0.5px solid rgb(188, 199, 209);
+
 }
 
 .sticky {
