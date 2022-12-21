@@ -1,7 +1,7 @@
 module.exports = {
   ci: {
     collect: {
-      settings: {chromeFlags: '--no-sandbox'},
+      staticDistDir: './',
     },
     upload: {
       target: 'temporary-public-storage',
