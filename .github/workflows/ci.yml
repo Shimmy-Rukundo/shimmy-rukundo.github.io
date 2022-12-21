@@ -1,20 +1,11 @@
-steps:
-  - id: 'install'
-    args: ['npm', 'ci']
-    name: node:16-alpine
+name: Lighthouse
 
-  - id: 'build'
-    waitFor: ['install']
-    name: node:16-alpine
-    args: ['npm', 'run', 'build']
+on: [push]
 
-  - id: 'lighthouse'
-    waitFor: ['build']
-    name: cypress/browsers:node16.17.0-chrome106
-    entrypoint: '/bin/sh'
-    args: ['-c', 'npm install -g @lhci/cli@0.8.x && lhci autorun --failOnUploadFailure']
-    env:
-      - 'LHCI_BUILD_CONTEXT__CURRENT_BRANCH=$BRANCH_NAME'
-
-options:
-  machineType: 'N1_HIGHCPU_8'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run Lighthouse
+      run: lighthouse [url] --output html
