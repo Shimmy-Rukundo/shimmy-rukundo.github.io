@@ -1,4 +1,4 @@
-# .light-ci.yml
+# .gitlab-ci.yml
 
 lighthouse:
   image: node:10
