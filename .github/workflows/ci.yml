@@ -8,4 +8,4 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run Lighthouse
-      run: lighthouse [url] --output html
+      run: lighthouse https://shimmy-rukundo.github.io/home/ --output html
