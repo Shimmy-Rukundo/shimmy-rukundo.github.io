@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 # Note: You have to allow the Safari 
 # To enable the 'Allow Remote Automation' option in Safari's Develop menu,
 driver = webdriver.Safari()
-shimmy = "https://shimmy-rukundo.github.io/bio/"
+shimmy = "https://shimmy-rukundo.github.io/home/"
 
 
 # Navigate to the blog page

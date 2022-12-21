@@ -1,0 +1,10 @@
+# .light-ci.yml
+
+lighthouse:
+  image: node:10
+  script:
+    - npm install -g lighthouse
+    - lighthouse "https://shimmy-rukundo.github.io/home/" --output=json --output-path=lighthouse-report.json
+  artifacts:
+    paths:
+      - lighthouse-report.json

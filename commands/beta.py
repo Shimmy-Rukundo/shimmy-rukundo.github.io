@@ -4,7 +4,7 @@ import requests
 
 # Set up the webdriver
 driver = webdriver.Safari()
-shimmy = "https://shimmy-rukundo.github.io/bio/"
+shimmy = "https://shimmy-rukundo.github.io/home/"
 
 # Navigate to the webpage
 driver.get(shimmy)
