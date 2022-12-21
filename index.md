@@ -6,7 +6,7 @@ viewport: width=device-width, initial-scale=1.0
 
 ::: {.topnav-main style="z-index: 1"}
 ::: topnav-header
-[SHIMMY RUKUNDO](/){.continic .blue}
+[SHIMMY RfUKUNDO](/){.continic .blue}
 
 ::: topnav-item-right
 [](https://www.linkedin.com/in/shimmy-rukundo-b68734203/){.item-link
