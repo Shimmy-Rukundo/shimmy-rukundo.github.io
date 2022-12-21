@@ -3,6 +3,7 @@
 lighthouse:
   image: node:10
   script:
+    priority: 1
     - npm install -g lighthouse
     - lighthouse "https://shimmy-rukundo.github.io/home/" --output=json --output-path=lighthouse-report.json
   artifacts:
