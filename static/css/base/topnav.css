@@ -7,6 +7,7 @@
   height: 40px;
   position: relative;
 }
+
 /* Style the links inside the navigation bar */
 /* Add a color to the active/current link */
 .topnav-header {
@@ -46,25 +47,28 @@
 .il-1 {
   background-color: rgb(0, 119, 181);
 }
+
 .il-2 {
-  background: #f09433; 
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
-  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
 }
-.il-3{
+
+.il-3 {
   background-color: rgb(66, 103, 178);
 }
 
 #topnav-slider {
+  position: sticky;
   background-color: white;
   overflow: hidden;
   border-bottom: 0.5px solid white;
   -webkit-backdrop-filter: blur(0.5px);
   backdrop-filter: blur(0.5px);
   width: 100%;
-    border-bottom: 0.5px solid rgb(188, 199, 209);
+  border-bottom: 0.5px solid rgb(188, 199, 209);
 
 }
 
@@ -78,8 +82,15 @@
 #topnav-slider ul {
   text-align: center;
   margin: 4px auto;
-  overflow: hidden;
   white-space: nowrap;
+    -ms-overflow-style: none;
+      /* for Internet Explorer, Edge */
+      scrollbar-width: none;
+      /* for Firefox */
+      overflow-y: scroll;
+}
+#topnav-slider ul::-webkit-scrollbar{
+  display: none;
 }
 
 .item-link-slider {
@@ -93,6 +104,7 @@
   padding: 0 6px;
   border-radius: 8px;
 }
+
 .item-link-slider:hover {
   color: rgb(0, 85, 135);
 }
